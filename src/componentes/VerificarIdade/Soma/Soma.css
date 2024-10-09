@@ -1,0 +1,8 @@
+.soma{
+    background-color: saddlebrown;
+    color: azure;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

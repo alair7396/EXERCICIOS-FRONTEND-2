@@ -1,0 +1,7 @@
+.sub{
+    background-color: dimgray;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
