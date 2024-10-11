@@ -91,11 +91,7 @@ function App() {
         O componente deve listar os itens em tela em uma ul com o fundo roxo e a letra
         amarela.
       </samp>
-      <ListaProdutos produtos={<ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-      </ul>} />
+      <ListaProdutos produtos={['item1','item2','item3']} />
       <hr />
       <samp>
         10.Crie um componente chamado 'VerificarIdade' que aceita uma prop chamada
