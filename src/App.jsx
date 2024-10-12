@@ -11,11 +11,13 @@ import ListaProdutos from './componentes/ListaProdutos/ListaProdutos';
 import VerificarIdade from './componentes/VerificarIdade/VerificarIdade';
 import NumerosPares from './componentes/NumerosPares/NumerosPares';
 import NumerosImpares from './componentes/NumerosImpares/NumerosImpares';
-import Soma from './componentes/VerificarIdade/Soma/Soma';
+import Soma from './componentes/Soma/Soma';
 import Subtracao from './componentes/Subtracao/Subtracao';
 import Divisao from './componentes/Divisao/Divisao';
 import Multiplicacao from './componentes/Multiplicacao/Multiplicacao';
 import Calculadora from './componentes/Calculadora/Calculadora';
+import TamanhoTexto from './componentes/TamanhoTexto/TamanhoTexto';
+import NomesOrdenados from './componentes/NomesOrdenados/NomesOrdenados';
 
 
 
@@ -111,7 +113,7 @@ function App() {
         O componente deve mostrar uma lista com os números pares em uma ul com o
         fundo azul e a letra amarela.
       </samp>
-      <NumerosPares numeros={[2,4,6]}/>
+      <NumerosPares numeros={[1,2,3,4,5,6]}/>
       <hr />
       <samp>
         12.Crie um componente chamado 'NumerosImpares' que aceita uma prop chamada
@@ -119,7 +121,7 @@ function App() {
         O componente deve mostrar uma lista com os números ímpares em uma ul
         com o fundo azul e a letra amarela.
       </samp>
-      <NumerosImpares numerosimpar={[1,3,5]}/>
+      <NumerosImpares numerosimpar={[1,2,3,4,5,6]}/>
       <hr />
       <samp>
       13.Crie um componente chamado 'Soma' que aceita as props 'num1', 'num2', o
@@ -162,7 +164,7 @@ function App() {
       texto centralizado na cor branca.
       Utilize do switch nesse componente.
       </samp>
-      <Calculadora  operacao='subtrair' num1={100} num2={50} />
+      <Calculadora  operacao='' num1={100} num2={50} />
       <hr />
       <samp>
       18.Crie um componente chamado 'TamanhoTexto' que aceita uma prop chamado
@@ -170,6 +172,7 @@ function App() {
       O tamanho do texto informado em uma div com o fundo marrom, texto
       justificado à direita na cor amarela.
       </samp>
+      <TamanhoTexto texto='Olá' />
       <hr />
       <samp>
       19.Crie um componente chamado 'NomesOrdenados' que aceita uma prop
@@ -179,6 +182,7 @@ function App() {
       rosa, texto na cor vermelha.
       Utilize a função sort para ordenar a lista.
       </samp>
+      <NomesOrdenados nomes={['João','Maria','Julia','Eustakio','Ophelia']}/>
       <hr />
     </>
   )

@@ -1,19 +1,17 @@
 import './NumerosImpares.css';
 
 const NumerosImpares = ({numerosimpar}) => {
+    const numerosImpares=numerosimpar.filter(verificacadanumerodoArrey=>verificacadanumerodoArrey%2 !=0)
     return (
-        <>
-            <div className='numerosimpares'>
-                <h3>São Impares</h3>
-                <ul>
-                    {numerosimpar.map((numerosimpar,
-                     index) => (
-                        <li key={index}>{numerosimpar}
-                        </li>
-                    ))}
-                </ul>
-            </div>
-        </>
+        <div className='numerosimpares'>
+        {numerosImpares.map((impar,index) =>{
+            return(
+                <div key={index} >
+                   <ul><li>{impar}</li></ul>
+                </div>
+            )
+        })}
+        </div>
     )
 }
 

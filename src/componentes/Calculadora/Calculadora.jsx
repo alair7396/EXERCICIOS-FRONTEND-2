@@ -21,9 +21,9 @@ const Calculadora=({num1,num2,operacao,operacao2})=>{
     
 
     return(
-        <div>
+        <div className='calcu'>
             <h3>Resultado da operação:</h3>
-            {operacao2}{operacao}
+            {operacao}
         </div>
     )
 }

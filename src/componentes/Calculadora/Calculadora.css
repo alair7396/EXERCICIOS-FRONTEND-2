@@ -1,0 +1,8 @@
+.calcu{
+    background-color: chartreuse;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

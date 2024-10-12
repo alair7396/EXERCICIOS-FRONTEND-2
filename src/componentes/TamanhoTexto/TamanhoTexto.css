@@ -1,0 +1,6 @@
+.text{
+    background-color: saddlebrown;
+    color: darkgoldenrod;
+    display: flex;
+    justify-content: end;
+}

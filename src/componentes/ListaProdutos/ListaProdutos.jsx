@@ -3,10 +3,10 @@ import './ListaProdutos.css';
 const ListaProdutos=({produtos})=>{
     return(
         <div className='listaprodutos'>
-            {produtos.map((produtos,index)=>{
+            {produtos.map((produto,index)=>{
                 return(
                     <div key={index}>
-                        <ul><li>{produtos}</li></ul>
+                        <ul><li>{produto}</li></ul>
                        
                     </div>
                 )
